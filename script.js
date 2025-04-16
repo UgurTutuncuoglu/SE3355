@@ -2,7 +2,7 @@
   
 
 
-fetch('https://run.mocky.io/v3/79c222a4-369b-4a0b-9dd2-c5fa9b5b7d78')
+fetch('https://run.mocky.io/v3/86a2bcc1-e63a-41cc-b116-b57f6a4c86ea')
   .then(response => response.json())
   .then(data => {
     const campaigns = data.campaigns;
@@ -39,7 +39,7 @@ fetch('https://run.mocky.io/v3/79c222a4-369b-4a0b-9dd2-c5fa9b5b7d78')
   }
 
 
-fetch('https://run.mocky.io/v3/22de1c74-4b3a-407b-99d2-f85ea002751c')
+fetch('https://run.mocky.io/v3/aa2b4460-c961-42d7-9d5d-7c60e7f06232')
     .then(res => res.json())
     .then(products => {
         const container = document.getElementById('suggestedProducts');
@@ -79,7 +79,7 @@ fetch('https://run.mocky.io/v3/22de1c74-4b3a-407b-99d2-f85ea002751c')
     const indicatorsContainer = document.querySelector("#slider1 .carousel-indicators");
     const counter = document.getElementById("carousel-counter");
 
-    fetch('https://run.mocky.io/v3/7f7c99b7-284f-49c1-86a0-abe288dd8e15')
+    fetch('https://run.mocky.io/v3/7ecdc3e5-32b8-4ebe-8f25-baf7de66ad89')
         .then(response => response.json())
         .then(data => {
             carouselInner.innerHTML = ''; 
@@ -134,7 +134,7 @@ fetch('https://run.mocky.io/v3/22de1c74-4b3a-407b-99d2-f85ea002751c')
             console.error("Failed to load slider data:", error);
         });
 
-        const apiUrl = 'https://run.mocky.io/v3/5ce5046b-da1d-4c03-b66c-30436293dff0'; 
+        const apiUrl = 'https://run.mocky.io/v3/d71e933b-e84e-4eef-aca9-916e15bd2a1f'; 
         let products = [];
         let currentIndex = 0;
         let priceInterval;
